@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in HTML where attempting to use innerHTML on an element that does not exist will not throw an error but will simply not work. This can be a difficult error to track down. The solution shows how to avoid this issue by checking if the element exists before attempting to modify it.
